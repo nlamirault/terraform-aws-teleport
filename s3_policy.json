@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ClusterSessionsStorage",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutEncryptionConfiguration",
+                "s3:PutObject",
+                "s3:GetObject",
+                "s3:GetEncryptionConfiguration",
+                "s3:GetObjectRetention",
+                "s3:ListBucketVersions",
+                "s3:ListBucketMultipartUploads",
+                "s3:CreateBucket",
+                "s3:ListBucket",
+                "s3:GetBucketVersioning",
+                "s3:PutBucketVersioning",
+                "s3:GetObjectVersion"
+            ],
+            "Resource": [
+                "arn:aws:s3:::teleport-helm-sessions/*",
+                "arn:aws:s3:::teleport-helm-sessions"
+            ]
+        }
+    ]
+}
