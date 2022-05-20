@@ -18,6 +18,7 @@ data "aws_iam_policy_document" "kms" {
   statement {
     effect = "Allow"
 
+    #tfsec:ignore:aws-iam-no-policy-wildcards
     actions = [
       "kms:Encrypt",
       "kms:Decrypt",
