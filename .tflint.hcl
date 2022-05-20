@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Nicolas Lamirault <nicolas.lamirault@gmail.com>
+# Copyright (C) Nicolas Lamirault <nicolas.lamirault@gmail.com>
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -44,6 +44,6 @@ rule "terraform_standard_module_structure" { enabled = true }
 
 plugin "aws" {
     enabled = true
-    version = "0.5.0"
+    version = "0.13.4"
     source  = "github.com/terraform-linters/tflint-ruleset-aws"
 }
