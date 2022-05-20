@@ -10,21 +10,21 @@
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.28.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 4.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.28.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.0.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_teleport"></a> [teleport](#module\_teleport) | terraform-aws-modules/s3-bucket/aws | 2.11.1 |
-| <a name="module_teleport_log"></a> [teleport\_log](#module\_teleport\_log) | terraform-aws-modules/s3-bucket/aws | 2.11.1 |
-| <a name="module_teleport_role"></a> [teleport\_role](#module\_teleport\_role) | terraform-aws-modules/iam/aws//modules/iam-assumable-role-with-oidc | 4.7.0 |
+| <a name="module_teleport"></a> [teleport](#module\_teleport) | terraform-aws-modules/s3-bucket/aws | 2.15.0 |
+| <a name="module_teleport_log"></a> [teleport\_log](#module\_teleport\_log) | terraform-aws-modules/s3-bucket/aws | 2.15.0 |
+| <a name="module_teleport_role"></a> [teleport\_role](#module\_teleport\_role) | terraform-aws-modules/iam/aws//modules/iam-assumable-role-with-oidc | 5.0.0 |
 
 ## Resources
 
