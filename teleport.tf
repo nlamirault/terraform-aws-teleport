@@ -72,7 +72,7 @@ resource "aws_iam_policy" "dns" {
 
 module "teleport_role" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-assumable-role-with-oidc"
-  version = "4.20.1"
+  version = "5.0.0"
 
   create_role      = true
   role_description = "Teleport Role"
